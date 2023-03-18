@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirInicio"
+        android:text="INICIO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <TableLayout
+        android:layout_width="331dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="136dp"
+        android:stretchColumns="4"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_column="1"
+                android:background="#03266C"
+                android:padding="3dip"
+                android:text="Fila1, Col1" />
+
+            <TextView
+                android:layout_width="76dp"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila1, Col2" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:background="#03266C"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila1, Col3" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila1, Col4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Fila2, Col1" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:background="#03266C"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila2, Col2" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila2, Col3" />
+
+            <TextView
+                android:background="#03266C"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila2, Col4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_column="1"
+                android:background="#03266C"
+                android:padding="3dip"
+                android:text="Fila3, Col1" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila3, Col2" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:background="#03266C"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila3, Col3" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila3, Col4" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Fila4, Col1" />
+
+            <TextView
+                android:layout_width="65dp"
+                android:background="#03266C"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila4, Col2" />
+
+            <TextView
+                android:layout_width="87dp"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila4, Col3" />
+
+            <TextView
+                android:background="#03266C"
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Fila4, Col4" />
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="start|top"
+            android:background="#03266C" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center|top"
+            android:background="#2043ED" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="end|top"
+            android:background="#86A1E4" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="start|center"
+            android:background="#0BA55D" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:background="#13F3A5" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="end|center"
+            android:background="#97DFC6" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="start|bottom"
+            android:background="#E82D2D" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center|bottom"
+            android:background="#A13240" />
+        <View
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="end|bottom"
+            android:background="#E1ADB8" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="abrirInicio"
+        android:text="INICIO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
